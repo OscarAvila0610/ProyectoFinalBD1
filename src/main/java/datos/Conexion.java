@@ -5,9 +5,9 @@ import javax.sql.DataSource;
 import org.apache.commons.dbcp2.BasicDataSource;
 
 public class Conexion {
-    private static final String JDBC_URL = "jdbc:oracle:thin:@localhost:1521:XE";
-    private static final String JDBC_USER = "proyecto";
-    private static final String JDBC_PASSWORD = "hola1234";
+    private static final String JDBC_URL = "jdbc:oracle:thin:@localhost:1521:basededatos2";
+    private static final String JDBC_USER = "system";
+    private static final String JDBC_PASSWORD = "admin123";
     
     public static DataSource getDataSource(){
         BasicDataSource ds = new BasicDataSource();
